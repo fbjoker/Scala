@@ -21,6 +21,20 @@ object forDemo1 {
 
 
 
+    var signum=(a:Double)=>{if(a>0){1}else{ if(a<0){-1}else{ 0}}}
+
+    def fune(x:Long,n:Long):Long={
+      if(n==0) 1
+      else
+      {
+        if(n>0)x*fune(x,(n-1))
+        else 1/fune(x,-1*n)
+      }
+    }
+
+
+
+
 
   }
 
