@@ -13,6 +13,11 @@ object ListDemo {
 
     println(arr)
     println(arr)
+    val list=List("hello world", "hello java"," hello scala")
+
+
+    list.flatMap(_.split(" ")).map((_,1)).groupBy(_._1).mapValues(_.size)
+
 
   }
 
