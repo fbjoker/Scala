@@ -9,7 +9,7 @@ object Testdemo {
 
     p1.resume()
 
-    println(p1.name)
+    println(p1.getName)
     println(p1.age)
 
 
