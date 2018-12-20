@@ -24,6 +24,8 @@ object Test8{
     val fish = new Fish
 
     fish.swimming
+
+    fish.add(3,5)
   }
 
 }
@@ -41,6 +43,12 @@ class  Fish{
   class skill{
     def swimming: Unit ={
       println("我是一条鱼")
+    }
+
+
+    def add(a:Int,b:Int): Unit ={
+
+      a+b
     }
   }
 

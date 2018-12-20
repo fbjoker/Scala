@@ -1,6 +1,6 @@
 package com.alex.demo1.demo4
 
-abstract class Animal {
+abstract class Animal() {
 
    var name:String
 
@@ -8,7 +8,9 @@ abstract class Animal {
 
 
 
-class cat extends  Animal{
+class cat() extends  Animal{
+
+
   override var name: String = _
 
 
