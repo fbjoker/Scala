@@ -158,7 +158,7 @@ object  Testcaseob{
     t.casematch(mango)
 
 
-    t.casemathc2(cat)
+    val unit: Unit = t.casemathc2(cat)
 
     t.collectionmath(Array(0,2))
     t.collectionmath(List(0,2))
